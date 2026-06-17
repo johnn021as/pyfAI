@@ -45,3 +45,6 @@ git branch : to see in which branch you are
 git branch branchname :to create new branch in the project
 git checkout branchname : to get into the created branch.
 
+git merge main -m "merging main into main branch" :merging the things to main branch or another branch in the github
+
+git comment (coment no.) :it takes you to the place where comment is done
