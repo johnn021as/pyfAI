@@ -14,7 +14,7 @@ END """
 
 def repeat(word, times):
     result = " "
-    for _ in range(times)
+    for _ in range(times):
         result += word
 
     return result

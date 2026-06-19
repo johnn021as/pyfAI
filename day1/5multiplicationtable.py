@@ -9,8 +9,8 @@ for i from 1 to 10 (inclusive)
 END"""
 
 
-def print_multiplication_table():
-    fir i in range(1, 11):
+def print_multiplication_table(n):
+    for i in range(1, 11):
         print(f"{n} * {i} = {n*i}")
     
 

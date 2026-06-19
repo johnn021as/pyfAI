@@ -8,7 +8,7 @@ else, print "odd"
 end"""
 
 
-def even_or_odd():
+def even_or_odd(n):
     return "even" if n % 2 == 0 else "odd"
 
 def main() :
