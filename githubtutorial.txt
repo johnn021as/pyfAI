@@ -48,3 +48,58 @@ git checkout branchname : to get into the created branch.
 git merge main -m "merging main into main branch" :merging the things to main branch or another branch in the github
 
 git comment (coment no.) :it takes you to the place where comment is done
+ 
+git diff (first comment) (second comment) : it will show the all changes between these two comments
+
+$ to exit the log view you just have to enter 'q'
+
+till now we have staged and commited file locally.
+
+***push,pull,fetch***
+
+Push-> sending loacal changes to the remote
+fetch-> bringing remote changes into your local repositories, but not merging them yet
+pull-> fetching plus merging so your work diretory immedietly reflects the remote changes
+
+pull = fetch + merge
+
+git push origin main : pushed into main branch
+
+git fetch : change in cloud but not locally 
+
+git merge :the cloud change is updated in the locally
+
+|-------------------------|       <<--      Push     <<--    |-------------|
+|          github         |                                  |   local     |
+|-------------------------|       -->>     PULL     -->>     |-------------|
+
+git restore : 
+
+git restore file.txt :
+
+git restore services :
+
+git restore . :
+
+git restore --staged filename :
+
+git restore -- staged . :
+
+git stash :temporarily set aside your unfinished work, switch to another branch to do something
+
+git stash pop : 
+
+git stash apply :
+
+git stash list : 
+
+git stash pop implifier/ADDRESS :
+
+git stash apply implifier/ADDRESS :
+
+git stash list : 
+
+git revert :
+
+git rebase :
+
