@@ -44,5 +44,5 @@ def guess_the_num():
 
 
 
-if __name__ = "__main__"
+if __name__ == "__main__":
     guess_the_num()

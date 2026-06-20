@@ -10,11 +10,11 @@ After the loop end , print the value of total
 END
 """
 
-def sum_1_to_n(n):
+def sum_1_to_n(N):
     total = 0
-    for i in range(1, n + 1):
+    for i in range(1, N + 1):
         total += i
-        return total
+    return total
     
 
 def main():
@@ -23,5 +23,5 @@ def main():
     print(f"the sum from 1 to {N} is {result}")
 
 
-if __name__ == "__main__"
+if __name__ == "__main__" :
     main()

@@ -19,7 +19,7 @@ End"""
 
 def create_squares(n):
     squares = []
-    fir i in range(1, n + 1):
+    for i in range(1, n + 1):
         squares.append(i * i)
     return squares
 
@@ -28,5 +28,5 @@ def main():
     result = create_squares(10)
     print(result)
 
-if __name__ = "__main__"
+if __name__ == "__main__":
     main()

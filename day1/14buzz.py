@@ -7,10 +7,8 @@ else if i is divisible by 5,print"buzz"
 else , print i
 END
 """
-
-
 def fizzbuzz(n):
-    for i in range(1,n + 1):
+    for i in range(1,n +1):
         if i % 15 == 0:
             print("FiZZBuzz")
         elif i % 3 == 0:
@@ -23,9 +21,10 @@ def fizzbuzz(n):
 
 
 def main():
-    fizzbuzz(50)
+    n = int(input("enter any number: "))
+    fizzbuzz(n)
 
 
 
-if __name__ = "__main__"
+if __name__ == "__main__":
     main()

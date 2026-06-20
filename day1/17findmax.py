@@ -19,14 +19,14 @@ def find_max(lst):
     max_val = lst[0]
     for num in lst[1:]:
         if num > max_val:
-            max_vsl = num
-        return max_val
+            max_val = num
+    return max_val
 def main():
     numbers = []
     for i in range(5):
         numbers.append(float(input(f"enter number {i + 1} :")))
-        largest = find_max(numbers)
-        print(f"the largest number is :{largest}")
+    largest = find_max(numbers)
+    print(f"the largest number is :{largest}")
 
-if __name__ = "__main__"
+if __name__ == "__main__":
     main()

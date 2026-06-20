@@ -17,7 +17,7 @@ def countdown(start):
 
 
 
-def main()
+def main():
     number = int(input("enter a positive integer:"))
     countdown(number)
 
